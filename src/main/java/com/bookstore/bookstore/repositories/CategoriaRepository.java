@@ -7,5 +7,5 @@ import com.bookstore.bookstore.domain.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer> {
-	
+
 }

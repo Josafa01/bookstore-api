@@ -13,13 +13,13 @@ import com.bookstore.bookstore.service.exceptions.ObjectNotFoundException;
 
 @Service
 public class LivroService {
-	
+
   @Autowired
   private LivroRepository repository;
 
   @Autowired
   private CategoriaService categoriaService;
-  
+
   public Livro findById(Integer id) {
 	  java.util.Optional<Livro> obj = repository.findById(id);
 	  return obj.orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado! Id: " + id + ", Tipo: " + Livro.class.getName()));

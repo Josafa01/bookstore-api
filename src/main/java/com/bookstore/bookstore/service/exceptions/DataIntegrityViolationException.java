@@ -1,9 +1,9 @@
 package com.bookstore.bookstore.service.exceptions;
 
 public class DataIntegrityViolationException  extends RuntimeException{
-	
+
 	private static final long serialVersionUID = 1l;
-	
+
 	public DataIntegrityViolationException(String message, Throwable cause) {
 		super(message, cause);
 		// TODO Auto-generated constructor stub
@@ -13,7 +13,7 @@ public class DataIntegrityViolationException  extends RuntimeException{
 		super(message);
 		// TODO Auto-generated constructor stub
 	}
-	
-	
-	
+
+
+
 }

@@ -10,7 +10,7 @@ public class LivroDTO implements Serializable {
 
 	private Integer id;
 	private String titulo;
-	
+
 	public LivroDTO() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -38,6 +38,6 @@ public class LivroDTO implements Serializable {
 		this.titulo = titulo;
 	}
 
-	
-	
+
+
 }

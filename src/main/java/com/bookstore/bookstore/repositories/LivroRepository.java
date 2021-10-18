@@ -14,5 +14,5 @@ public interface LivroRepository extends JpaRepository<Livro, Integer> {
 
 	@Query("SELECT obj FROM Livro obj WHERE obj.categoria.id = :id_cat ORDER BY titulo")
 	List<Livro> findAllCategoria(@Param(value = "id_cat")Integer id_cat);
-	
+
 }
