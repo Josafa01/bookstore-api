@@ -22,7 +22,6 @@ import com.bookstore.bookstore.domain.Categoria;
 import com.bookstore.bookstore.dtos.CategoriaDTO;
 import com.bookstore.bookstore.service.CategoriaService;
 
-@CrossOrigin("*")
 @RestController
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {
